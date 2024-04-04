@@ -1,0 +1,152 @@
+body{
+    background-color: #111827;
+    padding:0;
+    margin:0;
+    color:#FFFFFF;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+    max-width:420px;
+    padding:30px;
+    visibility:hidden;
+    
+
+}
+
+#startingPage{
+    visibility: visible;
+}
+
+textarea{
+    background-color: #444059;
+    color:#8F8F8F;
+    border-radius: 5px;
+    border:none;
+    resize: none;
+    padding:10px;
+    color:#FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    margin-top:20px;
+}
+
+textarea:focus{
+    outline:none;
+}
+
+textarea::placeholder{
+    font-family: "Open Sans", sans-serif;
+}
+
+#publishBtn{
+    margin:20px 0px;
+    background-color: #28A9F1;
+    border:none;
+    color:#04131C;
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    padding:15px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+#publishBtn:hover{
+    background-color: #1f87be;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+#textifyPostsContainer{
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#TextifyBox{
+    background-color: #243353;
+    color:#ffffff;
+    flex-grow:1;
+    margin:15px auto;
+    padding:10px 10px;
+    border-radius: 5px;;
+    
+}
+
+#TextifyNameTime{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#TextifyText{
+    padding:10px 0px;
+}
+
+#textifyLikes{
+    display: flex;
+    justify-content: end;
+   
+   
+}
+#likescontainer{
+    cursor: pointer;
+ 
+    padding:5px;
+}
+
+#bincontainer{
+    display: flex;
+    cursor: pointer;
+
+}
+.icon-heart{
+    color:rgb(253, 72, 52);
+}
+
+#startingPage{
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin:150px auto 0px auto;
+}
+
+#username{
+    margin:30px 0px;
+    padding:15px;
+    text-align: center;
+    font-size:25px;
+    background-color: #444059;
+    border-radius: 5px;
+    border:none;
+    color:#FFFFFF;
+    font-family: "Open Sans", sans-serif;
+   
+    
+}
+
+#username:focus{
+    outline: none;
+}
+
+#usernameBtn{
+    
+    background-color: #28A9F1;
+    border:none;
+    color:#04131C;
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    padding:15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#usernameBtn:hover{
+    background-color: #1f87be;
+    color:#ffffff;
+    cursor: pointer;
+}
