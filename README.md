@@ -3,7 +3,7 @@
 TEXTIFY.txt is my first project after LOOOONG break. 
 It is project for scrimba
 
-For now the only things you can do is
+For now the only things you can do are:
  - set username
  - post Textify ( tweet, post whatever )
  - and delete it
