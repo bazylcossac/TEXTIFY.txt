@@ -21,6 +21,8 @@ App is automatically adding a time of what your post was published
 I hosted it via netlify and i've made a shortcut to my phone screen 
 For now only me, my gf and my younger brother are using this app for sending funny messages to each other 
 
+App is using localstorage for username 
+
 SETTING USERNAME:
 
 <img width="563" alt="Zrzut ekranu 2024-04-4 o 18 53 25" src="https://github.com/bazylcossac/TEXTIFY.txt/assets/102479081/d8da209e-83db-4b7c-8316-ebd994d559f7">
